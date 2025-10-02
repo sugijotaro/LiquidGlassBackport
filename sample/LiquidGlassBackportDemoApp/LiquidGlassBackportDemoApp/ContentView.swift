@@ -47,6 +47,7 @@ struct ContentView: View {
                     .glassEffectIfAvailable()
             }
             .padding()
+            .frame(maxWidth: .infinity)
         }
         .background {
             Image("Wallpaper")

@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0AF0E2CD2E8E557C0076F031 /* LiquidGlassBackport in Frameworks */ = {isa = PBXBuildFile; productRef = 0AF0E2CC2E8E557C0076F031 /* LiquidGlassBackport */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0AF0E2BD2E8E54990076F031 /* LiquidGlassBackportDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidGlassBackportDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF0E2CD2E8E557C0076F031 /* LiquidGlassBackport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = LiquidGlassBackportDemoApp;
 			packageProductDependencies = (
+				0AF0E2CC2E8E557C0076F031 /* LiquidGlassBackport */,
 			);
 			productName = LiquidGlassBackportDemoApp;
 			productReference = 0AF0E2BD2E8E54990076F031 /* LiquidGlassBackportDemoApp.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 0AF0E2B42E8E54990076F031;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0AF0E2CB2E8E557C0076F031 /* XCLocalSwiftPackageReference "../../../LiquidGlassBackport" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0AF0E2BE2E8E54990076F031 /* Products */;
 			projectDirPath = "";
@@ -340,6 +349,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0AF0E2CB2E8E557C0076F031 /* XCLocalSwiftPackageReference "../../../LiquidGlassBackport" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../../LiquidGlassBackport;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0AF0E2CC2E8E557C0076F031 /* LiquidGlassBackport */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LiquidGlassBackport;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0AF0E2B52E8E54990076F031 /* Project object */;
 }

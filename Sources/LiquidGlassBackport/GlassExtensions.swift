@@ -33,6 +33,16 @@ public extension View {
     }
 }
 
+public extension View {
+    func glassEffectWithFallback() -> some View {
+        self.modifier(GlassEffectFallback())
+    }
+
+    func glassEffectWithFallback<S: Shape>(shape: S) -> some View {
+        self.modifier(GlassEffectFallback(shape: shape))
+    }
+}
+
 struct _AnyShape: Shape {
     private let path: @Sendable (CGRect) -> Path
 

@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "LiquidGlassBackport",
     platforms: [
-        .iOS(.v18),
+        .iOS(.v17),
         .macOS(.v12)
     ],
     products: [

@@ -6,3 +6,4 @@ DerivedData/
 .swiftpm/configuration/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
+sample/LiquidGlassBackportDemoApp/LiquidGlassBackportDemoApp.xcodeproj/project.xcworkspace/contents.xcworkspacedata

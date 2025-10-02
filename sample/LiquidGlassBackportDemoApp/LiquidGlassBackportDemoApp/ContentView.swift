@@ -34,7 +34,7 @@ struct ContentView: View {
                 Text("RoundedRectangle Shape")
                     .padding()
                     .glassEffectWithFallback(shape: RoundedRectangle(cornerRadius: 20))
-                
+
                 // 4. glassEffectWithFallback (custom shape: Circle)
                 Image(systemName: "star.fill")
                     .imageScale(.large)
@@ -47,6 +47,12 @@ struct ContentView: View {
                     .glassEffectIfAvailable()
             }
             .padding()
+        }
+        .background {
+            Image("Wallpaper")
+                .resizable()
+                .ignoresSafeArea()
+                .scaledToFill()
         }
     }
 }

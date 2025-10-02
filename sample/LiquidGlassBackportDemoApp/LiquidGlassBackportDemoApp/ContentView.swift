@@ -21,9 +21,9 @@ struct ContentView: View {
                     print("Glass Button Tapped")
                 }) {
                     Label("Glass Button", systemImage: "button.programmable")
-                        .padding()
+                        .padding(8)
                 }
-                .glassButtonStyleIfAvailable()
+                .glassButtonStyle()
 
                 // 2. glassEffectWithFallback (default shape)
                 Text("Default Shape (Capsule)")
